@@ -8,12 +8,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
     body {
+      /* This one line sets Arial as the default for the entire page */
       font-family: Arial, sans-serif; 
       background-color: #f8f9fa;
       color: #343a40;
     }
+    /* We remove the .brand-font and .section-title font rules 
+       so they inherit the new body font */
     .section-title {
-      font-weight: 700;
+      font-weight: 700; /* Keep the bold weight for titles */
     }
     .nav-link {
       transition: color 0.3s ease;
@@ -92,7 +95,7 @@
     <section id="publications" class="py-16">
         <h2 class="text-3xl md:text-4xl brand-font text-gray-800 text-center mb-12">Publications</h2>
         
-        <!-- NEW: Citation Metrics Block -->
+        <!-- Citation Metrics Block -->
         <div class="max-w-4xl mx-auto mb-12 px-4">
             <div class="bg-white rounded-lg shadow-md border border-gray-200 p-6">
                 <h3 class="text-xl font-bold text-gray-800 text-center mb-4">Citation Metrics</h3>
@@ -385,13 +388,27 @@
           <div class="flex justify-between items-start">
             <div>
               <h3 class="text-xl font-bold text-gray-900">Visiting Scholar</h3>
-              <p class="text-md font-semibold text-blue-800">The University of Sydney & UNSW</p>
+              <p class="text-md font-semibold text-blue-800">The University of Sydney Business School</p>
             </div>
             <p class="text-sm text-gray-500 flex-shrink-0 ml-4">June 2025 – Present</p>
           </div>
+          <p class="text-sm text-gray-600 mt-2">Host: A/Prof. Zhan Wu (zhan.wu@sydney.edu.au)</p>
           <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
-            <li>Conducting research on sustainable regional development and low-carbon transition policy.</li>
-            <li>Investigating climate risk, transition uncertainty, and policy responses.</li>
+            <li>Conducting research on Sustainable regional development and low-carbon transition policy evaluation.</li>
+          </ul>
+        </div>
+
+        <div class="card p-6">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="text-xl font-bold text-gray-900">Visiting Scholar</h3>
+              <p class="text-md font-semibold text-blue-800">Institute for Climate Risk & Response, University of New South Wales (UNSW)</p>
+            </div>
+            <p class="text-sm text-gray-500 flex-shrink-0 ml-4">June 2025 – Present</p>
+          </div>
+          <p class="text-sm text-gray-600 mt-2">Host: Dr. Tim Neal (timothy.neal@unsw.edu.au)</p>
+          <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
+            <li>Conducting research on climate risk, transition uncertainty, and policy responses for sustainable regional development.</li>
           </ul>
         </div>
 
@@ -399,14 +416,16 @@
           <div class="flex justify-between items-start">
             <div>
               <h3 class="text-xl font-bold text-gray-900">Associate Professor</h3>
-              <p class="text-md font-semibold text-blue-800">Nanjing University of Science and Technology</p>
+              <p class="text-md font-semibold text-blue-800">School of Economics and Management, Nanjing University of Science and Technology</p>
+              <p class="text-sm text-gray-500">Nanjing, China</p>
             </div>
             <p class="text-sm text-gray-500 flex-shrink-0 ml-4">June 2021 – Present</p>
           </div>
           <ul class="mt-4 list-disc list-inside text-gray-700 space-y-2">
-            <li>Leading research and teaching in environmental policy and energy economics.</li>
-            <li>Teaching Microeconomics, Industrial Development, and Energy Management courses.</li>
-            <li>Supervising Master's, MBA, and PhD students.</li>
+            <li>Lead research and teaching in environmental policy and energy economics.</li>
+            <li>Teach Microeconomics at undergraduate and Master’s levels, enhancing student understanding of economic principles.</li>
+            <li>Deliver PhD-level courses on Industrial Development, Energy Management, and Environmental and Industrial Policy for Sustainable Development.</li>
+            <li>Supervise 10 Master’s students, 3 part-time MBA candidates, 12 undergraduate thesis students, and co-supervise 2 PhD students.</li>
           </ul>
         </div>
 
@@ -414,7 +433,8 @@
           <div class="flex justify-between items-start">
             <div>
               <h3 class="text-xl font-bold text-gray-900">Visiting Research Fellow</h3>
-              <p class="text-md font-semibold text-blue-800">The University of Tokyo</p>
+              <p class="text-md font-semibold text-blue-800">Institute for Future Initiatives, The University of Tokyo</p>
+              <p class="text-sm text-gray-500">Tokyo, Japan</p>
             </div>
             <p class="text-sm text-gray-500 flex-shrink-0 ml-4">June 2023 – June 2024</p>
           </div>
@@ -436,16 +456,58 @@
                 <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Causal Inference</span>
                 <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Micro-Level Data Analysis</span>
                 <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">STATA & Python</span>
-                <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Policy Evaluation</span>
                 <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Academic Writing & Publishing</span>
+                <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Policy Evaluation</span>
                 <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Postgraduate Supervision</span>
+                <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Curriculum Design</span>
+                <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Project Management</span>
+                <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Communication</span>
+                <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Teaching & Lecturing Skills</span>
                 <span class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">International Collaboration</span>
             </div>
         </div>
     </section>
 
+    <!-- Academic Services Section -->
+    <section id="academic-services" class="py-16 bg-white rounded-lg">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl md:text-4xl brand-font text-gray-800 text-center mb-12">Academic Services & Editorial Activities</h2>
+        <div class="grid md:grid-cols-2 gap-x-12 gap-y-10">
+          <!-- Editorial Roles -->
+          <div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center md:text-left">Editorial Roles</h3>
+            <div class="space-y-6">
+              <div class="border-l-4 border-blue-200 pl-4">
+                <p class="font-semibold text-gray-900">Editorial Board Member, <span class="italic">Carbon Neutralization</span></p>
+                <p class="text-sm text-gray-600">Wiley, IF:12.0, SCI (Q1)</p>
+              </div>
+              <div class="border-l-4 border-blue-200 pl-4">
+                <p class="font-semibold text-gray-900">Editorial Board Member, Ad hoc Associate Editor, <span class="italic">Journal of Chinese Economic and Business Studies</span></p>
+                <p class="text-sm text-gray-600">Taylor & Francis, SCIE/ESCI indexed, IF:4.0, SCIE (Q2)</p>
+              </div>
+              <div class="border-l-4 border-blue-200 pl-4">
+                <p class="font-semibold text-gray-900">Guest Editor, Special Issue on Low-Carbon Innovation, <span class="italic">Frontiers in Sustainable Energy Policy</span></p>
+                <p class="text-sm text-gray-600">Frontiers</p>
+              </div>
+              <div class="border-l-4 border-blue-200 pl-4">
+                <p class="font-semibold text-gray-900">Guest Editor, Special Issue on Energy Transition, <span class="italic">Sustainability</span></p>
+                <p class="text-sm text-gray-600">MDPI</p>
+              </div>
+            </div>
+          </div>
+          <!-- Reviewer -->
+          <div>
+            <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center md:text-left">Reviewer</h3>
+            <p class="text-gray-700 leading-relaxed italic">
+              Energy Economics, Energy, Environmental Impact Assessment Review, Energy Policy, Journal of Cleaner Production, Journal of Business
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Education & Awards -->
-    <section id="education-awards" class="py-16 bg-white rounded-lg">
+    <section id="education-awards" class="py-16">
         <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
             <div>
                 <h2 class="text-3xl brand-font text-gray-800 mb-8 text-center">Education</h2>
@@ -464,14 +526,16 @@
             </div>
             <div>
                 <h2 class="text-3xl brand-font text-gray-800 mb-8 text-center">Awards & Honours</h2>
-                <div class="space-y-6">
+                <div class="space-y-8">
                     <div>
                         <h3 class="text-lg font-bold text-gray-900">Supervisor Award</h3>
-                        <p class="text-sm text-gray-500">Jiangsu Graduate Innovation Practice Competition, 2024</p>
+                        <p class="text-sm text-gray-500">Jiangsu Graduate Innovation Practice Competition, Nanjing, China, 2024</p>
+                        <p class="mt-1 text-gray-700">Recognized for excellence in guiding graduate students in applied research and innovation.</p>
                     </div>
                     <div>
                         <h3 class="text-lg font-bold text-gray-900">National Scholarship for Doctoral Students</h3>
                         <p class="text-sm text-gray-500">Ministry of Education, China, 2018-2020</p>
+                        <p class="mt-1 text-gray-700">Top-tier merit-based scholarship awarded to outstanding PhD students nationwide.</p>
                     </div>
                 </div>
             </div>
